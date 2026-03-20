@@ -61,7 +61,7 @@ namespace BaiNgoaiLe
             var minTuoi = listSV.Min(s => s.Tuoi);
 
             var svMaxTuoi = listSV.Where(s => s.Tuoi == maxTuoi).ToList();
-            var svMinTuoi = listSV.Where(s => s.Tuoi == minTuoi).ToList();
+            var svMinTuoi = listSV.Where(s => s.Tuoi == minTuoi).ToList();//
 
             Console.WriteLine($"=> SV lớn tuổi nhất ({maxTuoi} tuổi): " + string.Join(", ", svMaxTuoi.Select(s => s.Ten)));
             Console.WriteLine($"=> SV trẻ tuổi nhất ({minTuoi} tuổi): " + string.Join(", ", svMinTuoi.Select(s => s.Ten)));
