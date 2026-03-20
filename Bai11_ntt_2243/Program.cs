@@ -17,7 +17,7 @@ namespace Bai11_ntt_2243
         static void Main(string[] args)
         {//
             Console.WriteLine("Nguyen Thi Thuong _23115053122243_LTC#02");
-
+            //
             List<Student> danhSachSV = new List<Student>() {
                 new Student { Id = 1, Name = "An", Score = 8 },
                 new Student { Id = 2, Name = "Binh", Score = 6 },
