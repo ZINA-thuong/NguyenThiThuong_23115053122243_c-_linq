@@ -36,7 +36,7 @@ namespace Bai18_ntt_2243
                 Console.WriteLine($"=={group.Key}==");
                 foreach(var sv in group)
                 {
-                    Console.WriteLine($"{sv.Name} - {sv.Score}");
+                    Console.WriteLine($"{sv.Name} - {sv.Score}");//
                 }
             }
 
