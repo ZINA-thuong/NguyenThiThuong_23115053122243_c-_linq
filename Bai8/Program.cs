@@ -25,7 +25,7 @@ namespace Bai8
             };
             Console.WriteLine("Danh sach sv ban dau");
             foreach (Student sv in danhSachSV)
-                Console.WriteLine(sv.Name + "-" + sv.Score);
+                Console.WriteLine(sv.Name + "-" + sv.Score);//
 
             //lọc sv >=8
             List<Student> svGioi = danhSachSV.Where(s => s.Score >= 8).ToList();
