@@ -21,7 +21,7 @@ namespace Bai10_ntt_2243
             List<Student> danhSachSV = new List<Student>() {
                 new Student { Id = 1, Name = "An", Score = 8 },
                 new Student { Id = 2, Name = "Binh", Score = 6 },
-                new Student { Id = 3, Name = "Chi", Score = 9 },
+                new Student { Id = 3, Name = "Chi", Score = 9 },//
                 new Student { Id = 4, Name = "Dung", Score = 7 }
             };
             Console.WriteLine("Danh sach sv ban dau");
