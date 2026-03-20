@@ -11,7 +11,7 @@ namespace Bai3_NTT_2243
         static void Main(string[] args)
         {
             Console.WriteLine("Nguyen Thi Thuong _ 23115053122243 _ 225LTC#02");
-            List<int> numbers = new List<int> { 1, 52, 3, 4, 9, 6, 7, 78, 8 };
+            List<int> numbers = new List<int> { 1, 52, 3, 4, 9, 6, 7, 78, 8 };//
             Console.WriteLine("Danh sach ban dau: " + string.Join(", ", numbers));
 
             List<int> tangDan = numbers.OrderBy(n => n).ToList();
