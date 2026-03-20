@@ -30,7 +30,7 @@ namespace Bai13_ntt_2243
 
             //Lay đầu tiên sv >= 7 điểm
             var SVDauLon7 = danhSachSV.Where(s => s.Score >= 7).FirstOrDefault();
-            Console.WriteLine($"VS dau có diem > 7:  {SVDauLon7.Name} - {SVDauLon7.Score} ");
+            Console.WriteLine($"VS dau có diem > 7:  {SVDauLon7.Name} - {SVDauLon7.Score} ");//
 
             Console.ReadLine();
         }
