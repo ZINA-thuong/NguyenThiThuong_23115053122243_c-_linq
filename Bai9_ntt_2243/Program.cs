@@ -15,7 +15,7 @@ namespace Bai9_ntt_2243
     class Program
     {
         static void Main(string[] args)
-        {
+        {//
             Console.WriteLine("Nguyen Thi Thuong _23115053122243_LTC#02");
 
             List<Student> danhSachSV = new List<Student>() {
